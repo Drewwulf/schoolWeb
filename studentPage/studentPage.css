@@ -37,6 +37,7 @@
     display: flex;
     align-content: center;
     align-items: center;
+    justify-content: space-around;
 }
 
 .photoCartka {
@@ -50,34 +51,35 @@
 }
 
 .inform {
-    width: 67%;
+    width: 60%;
     align-content: center;
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-between
+
+
 }
 
 .name {
     background-color: #aac8df;
-    height: 30%;
-    width: 80%;
     align-content: center;
     text-align: center;
     border-radius: 15px;
     font-size: 2.8rem;
     font-weight: 600;
-    margin: 10px auto;
-    margin-top: 4vh !important;
-    margin-left: 11vh;
+    height: 40%;
 }
 
 .informatia{
     background-color: #aac8df;
-    height: 40%;
-    width: 80%;
-    margin: 10px auto;
     align-content: center;
     text-align: center;
     border-radius: 15px;
     font-size: 2.8rem;
     font-weight: 600;
+    height: 50%;
+
 }
 
 .photoCartka img
