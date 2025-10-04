@@ -45,7 +45,8 @@ main{
 .mainDiv{
     width: 67%;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    flex-direction: column
 }
 
 .nameDiv{
