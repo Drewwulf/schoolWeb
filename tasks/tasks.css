@@ -24,3 +24,83 @@
 body{
     background-color: #daeeff;
 }
+
+.mainDiv{
+    background-color: white;
+    width: 40%;
+    height: 70vh;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3vh;
+    align-content: center;
+    box-shadow: 2px 2px 23px black;
+}
+
+.mainDiv input{
+    width: 50%;
+    height: 8vh;
+    margin: 1vh;
+    background-color: #aac8df;
+}
+
+input{
+    color: #050a30;
+    font-size: 1.6rem;
+    border-radius: 2vh;
+    font-weight: 600;
+    padding: 10px;
+    box-shadow: 2px 2px 16px black;
+}
+
+.submit{
+    font-size: 2.1rem;
+    margin-top: 5vh!important;
+}
+
+.section{
+    align-content: center;
+    height: 88vh;
+    width: 100%;
+}
+
+section{
+    height: 73vh;
+    width: 100%;
+    align-content: center;
+}
+
+.table2{
+    text-align: center;
+    height: 92%;
+    align-content: center;
+    color: #ffffff;
+    display: flex;
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 38px;
+    border-radius: 3vh;
+    justify-content: center;
+    box-shadow: 2px 2px 23px black;
+}
+
+.table2 td{
+    padding: 40px;
+    border: outset;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #050a30;
+    align-content: center;
+}
+
+.table2 th{
+    padding: 20px;
+    border: outset;
+    font-size: 1.8rem;
+    align-content: center;
+}
+
+.btn{
+    font-size: 1.4rem;
+}
