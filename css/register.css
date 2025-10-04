@@ -62,7 +62,31 @@
 #mistake {
     display: none;
 }
+#name {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        padding: 6px;
+        border-radius: 15px;
+        transition: 0.2s;
+    }
+.divrol{
+justify-content: center;
+    text-align: center  ;
 
+}
+.selectclass{
+    display: block;
+        width: 75%;
+        margin: 0 auto;
+        padding: 6px;
+        border-radius: 15px;
+        transition: 0.2s;
+}
+.btn-sm{
+    border-radius: 1vh;
+
+}
 @media (max-width: 1000px) {
     .divform1 {
         align-content: center;
@@ -83,7 +107,7 @@
         margin: 0 auto;
         background: orange;
         padding: 5%;
-        height: 30vh;
+
         align-content: center;
     }
     .h2centr {
