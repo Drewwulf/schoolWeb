@@ -34,6 +34,7 @@ body{
     display: flex;
     align-items: center;
     padding: 20px;
+    justify-content: space-around;
 }
 
 main{
@@ -48,30 +49,20 @@ main{
 
 .nameDiv{
     background-color: #aac8df;
-    height: 30%;
-    width: 80%;
-    margin:10px auto;
-    margin-top: 4vh!important;
     text-align: center;
     align-content: center;
     font-size: 2.8rem;
     border-radius: 15px;
     font-weight: 600;
-    margin-left: 11vh;
 }
 
 .lessonDiv{
     background-color: #aac8df;
-    width: 80%;
     text-align: center;
     align-content: center;
     font-size: 2.7rem;
-    height: 40%;
-    margin-top: 7vh!important;
-    margin:10px auto;
     border-radius: 15px;
     font-weight: 600;
-    margin-left: 11vh;
 }
 
 .photoDiv{
