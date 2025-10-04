@@ -44,11 +44,11 @@ main{
 
 .mainDiv{
     width: 60%;
-    height: 60%;
     align-content: center;
     display: flex;
+    height: 60%;
+    flex-direction: column;
     justify-content: space-between;
-    flex-direction: column
 }
 
 .nameDiv{
