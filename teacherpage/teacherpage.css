@@ -44,7 +44,7 @@ main{
 
 .mainDiv{
     width: 67%;
-    height: 100%;
+    display: flex;
     justify-content: space-between
 }
 
