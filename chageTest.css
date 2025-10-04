@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #aac8df;
+    height: 12vh;
+    text-shadow: 3px 3px 15px;
+    box-shadow: 0 0 11px;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.navbar-brand {
+    font-size: 2.4rem;
+}
+
+.nav-link {
+    color: #050a30;
+    margin-left: 4vh;
+    text-shadow: 3px 3px 10px;
+}
+
+.nav-link:hover {
+    color: beige !important;
+}
