@@ -51,6 +51,8 @@
     height: 30%;
     width: 80%;
     margin: 10px auto;
+    align-content: center;
+    text-align: center
 }
 
 .informatia{
@@ -58,4 +60,6 @@
     height: 40%;
     width: 80%;
     margin: 10px auto;
+    align-content: center;
+    text-align: center
 }
