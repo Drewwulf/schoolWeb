@@ -1,0 +1,15 @@
+.tasksection{
+    width: 80%;
+    background: blue;
+    margin: 0 auto;
+    height: 50vh;
+}
+.H1TASK{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.divanswer{
+    width: 20%;
+}
