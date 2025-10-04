@@ -57,12 +57,14 @@
     background-color: #aac8df;
     height: 30%;
     width: 80%;
-    margin: 10px auto;
     align-content: center;
     text-align: center;
     border-radius: 15px;
     font-size: 2.8rem;
     font-weight: 600;
+    margin: 10px auto;
+    margin-top: 4vh !important;
+    margin-left: 11vh;
 }
 
 .informatia{
