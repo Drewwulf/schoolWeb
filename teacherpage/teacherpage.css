@@ -58,6 +58,7 @@ main{
     font-size: 2.8rem;
     border-radius: 15px;
     font-weight: 600;
+    height: 40%;
 
 }
 
@@ -68,6 +69,7 @@ main{
     font-size: 2.7rem;
     border-radius: 15px;
     font-weight: 600;
+    height: 50%;
 }
 
 .photoDiv{
