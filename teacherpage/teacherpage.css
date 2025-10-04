@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     background-color: #aac8df;
     font-size: 1.7rem;
     font-weight: 500;
@@ -7,25 +7,25 @@
     box-shadow: 0 0 11px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 2.4rem;
 }
 
-.nav-link{
+.nav-link {
     color: #050a30;
     margin-left: 4vh;
     text-shadow: 3px 3px 10px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: beige;
 }
 
-body{
+body {
     background-color: #daeeff;
 }
 
-.section{
+.section {
     background-color: white;
     height: 50vh;
     width: 50vw;
@@ -37,12 +37,12 @@ body{
     justify-content: space-around;
 }
 
-main{
+main {
     height: 88vh;
     align-content: center;
 }
 
-.mainDiv{
+.mainDiv {
     width: 60%;
     align-content: center;
     display: flex;
@@ -51,28 +51,27 @@ main{
     justify-content: space-between;
 }
 
-.nameDiv{
+.nameDiv {
     background-color: #aac8df;
-    text-align: center;
     align-content: center;
-    font-size: 2.8rem;
+    text-align: center;
     border-radius: 15px;
+    font-size: 2.8rem;
     font-weight: 600;
     height: 40%;
-
 }
 
-.lessonDiv{
+.lessonDiv {
     background-color: #aac8df;
-    text-align: center;
     align-content: center;
-    font-size: 2.7rem;
+    text-align: center;
     border-radius: 15px;
+    font-size: 2.8rem;
     font-weight: 600;
     height: 50%;
 }
 
-.photoDiv{
+.photoDiv {
     width: 33%;
     background-color: #aac8df;
     height: max-content;
@@ -80,6 +79,6 @@ main{
     align-items: center;
 }
 
-.photoDiv img{
+.photoDiv img {
     width: 100%;
 }
