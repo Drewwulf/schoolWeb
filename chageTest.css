@@ -20,3 +20,17 @@
 .nav-link:hover {
     color: beige !important;
 }
+
+.sect{
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    background-color: green;
+}
+
+.osnova {
+    background-color: darkred;
+    height: 50rem;
+    width: 60rem;
+    margin: 0 auto;
+}
