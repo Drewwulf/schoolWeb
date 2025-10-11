@@ -40,7 +40,7 @@ sect {
     flex-direction: column;
 }
 
-.osnova div{
+.osnova div {
     background-color: #aac8df;
     border: solid 2px;
     border-radius: 2vh;
@@ -50,17 +50,20 @@ sect {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-
+    font-size: 2rem;
 }
 
-.but{
+.but {
     background-color: black;
 }
 
-.osnova img{
-    height: 10vh
+.osnova img {
+    height: 10vh;
 }
 
-.osnova a{
-
+.osnova div div {
+    display: flex;
+    width: 30%;
+    border: 0;
+    justify-content: space-around;
 }
