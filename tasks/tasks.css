@@ -85,7 +85,6 @@ section{
 }
 
 .table2 td{
-    padding: 40px;
     border: outset;
     width: 100%;
     font-size: 1.6rem;
@@ -103,4 +102,62 @@ section{
 
 .btn{
     font-size: 1.4rem;
+}
+
+@media (max-width: 1000px){
+    .mainDiv{
+        width: 80%;
+    }
+
+    .mainDiv form input{
+        font-size: 2.7rem;
+        width: 70%;
+    }
+
+    .submit{
+        font-size: 3.1rem!important;
+    }
+
+    .navbar-brand{
+        font-size: 3.8rem;
+    }
+
+    .table2{
+        text-align: center;
+        height: 73%;
+        align-content: center;
+        color: #ffffff;
+        display: flex;
+        background-color: white;
+        width: 90%;
+        margin: 0 auto;
+        padding: 38px;
+        border-radius: 3vh;
+        justify-content: center;
+        box-shadow: 2px 2px 23px black;
+    }
+
+    .table2 td{
+        border: outset;
+        width: 100%;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #050a30;
+        align-content: center;
+    }
+
+    .table2 th{
+        padding: 20px;
+        border: outset;
+        font-size: 1.8rem;
+        align-content: center;
+    }
+
+    .btn{
+        font-size: 1.7rem;
+    }
+
+    .table2 table{
+        width: 17vw;
+    }
 }
