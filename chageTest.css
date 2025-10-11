@@ -25,11 +25,11 @@
     height: 88vh;
     display: flex;
     align-items: center;
-    background-color: green;
+    background-color: #aac8df;
 }
 
 .osnova {
-    background-color: darkred;
+    background-color: white;
     height: 50rem;
     width: 60rem;
     margin: 0 auto;
