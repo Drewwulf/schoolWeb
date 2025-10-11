@@ -30,7 +30,9 @@
 
 .osnova {
     background-color: white;
-    height: 50rem;
-    width: 60rem;
+    height: 70vh;
+    width: 60%;
     margin: 0 auto;
+    border-radius: 3vh;
+    box-shadow: 2px 2px 23px black;
 }
