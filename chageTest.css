@@ -21,11 +21,11 @@
     color: beige !important;
 }
 
-.sect{
+.sect {
     height: 88vh;
     display: flex;
     align-items: center;
-    background-color: #aac8df;
+    background-color: #daeeff;
 }
 
 .osnova {
