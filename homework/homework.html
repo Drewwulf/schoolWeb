@@ -8,7 +8,7 @@
             rel="stylesheet"
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous" />
-        <link rel="stylesheet" href="/directionpage/directionpage.css" />
+        <link rel="stylesheet" href=" homework.css" />
     </head>
     <body>
         <header>
@@ -27,10 +27,10 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link" aria-current="page" href="#">Тести</a>
-                            <a class="nav-link" href="#">Розклад</a>
+                            <a class="nav-link" aria-current="page" href="/tasks/tasks.html">Тести</a>
+                            <a class="nav-link" href="/schudle/schudle.html">Розклад</a>
                             <a class="nav-link" href="#">Групи</a>
-                            <a class="nav-link" aria-disabled="true" href="/homework/homework.html">Д/З</a>
+                            <a class="nav-link" aria-disabled="true">Д/З</a>
                         </div>
                     </div>
                 </div>
@@ -42,6 +42,15 @@
                 <form>
                     <input type="text" placeholder="Назва">
                     <input type="text" placeholder="Опис">
+                    <input type="file">
+                    <br>
+                    <label for="start" class="finish">початок завдання</label>
+                    <br>
+                    <input type="date" value="" id="start">
+                    <br>
+                    <label for="finish" class="finish">здача завдання</label>
+                    <br>
+                    <input type="date" value="" id="finish">
                     <input type="submit" value="Створити" class="submit">
                 </form>
             </div>
@@ -49,13 +58,13 @@
             <section>
                 <div class="table2">
                     <table class="table">
-                       <thead class="table-dark th1">
-                           <tr><th class="th">Номер</th><th>Назва</th><th>Опис</th><th>Дії</th></tr>
+                       <thead class="table-dark">
+                           <tr><th>Номер</th><th>Назва</th><th>Опис</th><th>Початок</th><th>Здача</th></tr>
                        </thead>
                        <tbody>
-                           <tr><td>№1</td><td>HTML</td><td>Структура</td><td><button type="button" class="btn btn-dark">Деталі</button></td></tr>
-                           <tr><td>№2</td><td>CSS</td><td>Стилізація</td><td><button type="button" class="btn btn-dark">Деталі</button></td></tr>
-                           <tr><td>№3</td><td>JAVASCRIPT</td><td>Інтерактивність</td><td><button type="button" class="btn btn-dark">Деталі</button></td></tr>
+                           <tr><td>№1</td><td>Заголовок</td><td>h1-h6</td><td>2025.06.02</td><td>2025.07.02</td></tr>
+                           <tr><td>№2</td><td>Параграф</td><td>В ньому текст</td><td>2025.05.07</td><td>2025.06.07</td></tr>
+                           <tr><td>№3</td><td>Таблиці</td><td>Тут приклад</td><td>2025.11.31</td><td>2025.12.31</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -68,11 +77,12 @@
                 </div>
                 <div class="Div2">
                     <a href="/teacherpage/teacherpage.html">СТОРІНКА СТУДЕНТА</a>
-                <div class="Div3">
-                    <a href="directionpage.html">СТОРІНКА НАПРЯМОК</a>
                 </div>
+                <div class="Div2">
+                    <a href="/teacherpage/teacherpage.html">СТОРІНКА СТУДЕНТА</a>
                 </div>
             </div>
         </footer>
     </body>
 </html>
+

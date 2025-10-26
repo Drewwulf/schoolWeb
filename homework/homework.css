@@ -1,5 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');.navbar{
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap");
+.navbar {
     background-color: #aac8df;
     font-size: 1.7rem;
     font-weight: 500;
@@ -8,28 +8,28 @@
     box-shadow: 0 0 11px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 2.4rem;
 }
 
-.nav-link{
+.nav-link {
     color: #050a30;
     margin-left: 4vh;
     text-shadow: 3px 3px 10px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: beige;
 }
 
-body{
+body {
     background-color: #daeeff;
 }
 
-.mainDiv{
+.mainDiv {
     background-color: white;
     width: 40%;
-    height: 70vh;
+    height: 83vh;
     margin: 0 auto;
     text-align: center;
     border-radius: 3vh;
@@ -37,14 +37,14 @@ body{
     box-shadow: 2px 2px 23px black;
 }
 
-.mainDiv input{
+.mainDiv input {
     width: 50%;
     height: 8vh;
     margin: 1vh;
     background-color: #aac8df;
 }
 
-input{
+input {
     color: #050a30;
     font-size: 1.6rem;
     border-radius: 2vh;
@@ -53,26 +53,35 @@ input{
     box-shadow: 2px 2px 16px black;
 }
 
-.submit{
+.submit {
     font-size: 2.1rem;
-    margin-top: 5vh!important;
+    margin-top: 5vh !important;
 }
 
-.section{
+.section {
     align-content: center;
-    height: 88vh;
+    height: 84vh;
     width: 100%;
+    margin-top: 3vh;
 }
 
-section{
-    height: 73vh;
+.finish {
+    background-color: #aac8df;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 2vh;
+}
+
+section {
+    height: 79vh;
     width: 100%;
     align-content: center;
 }
 
-.table2{
+.table2 {
     text-align: center;
-    height: 92%;
+    height: 89%;
     align-content: center;
     color: #ffffff;
     display: flex;
@@ -85,7 +94,7 @@ section{
     box-shadow: 2px 2px 23px black;
 }
 
-.table2 td{
+.table2 td {
     border: outset;
     width: 100%;
     font-size: 1.6rem;
@@ -94,48 +103,52 @@ section{
     align-content: center;
 }
 
-.table2 th{
+.table2 th {
     padding: 20px;
     border: outset;
     font-size: 1.7rem;
     align-content: center;
 }
 
-.btn{
+.btn {
     font-size: 1.4rem;
 }
 
-.footer{
+.footer {
     background-color: #ffffff;
     width: 100%;
     height: 16vh;
 }
 
-.footer a{
+input file {
+    background-color: #aac8df;
+}
+
+.footer a {
     color: #050a30;
     font-size: 1.5rem;
     margin-left: 2vh;
 }
 
-@media (max-width: 1000px){
-    .mainDiv{
+@media (max-width: 1000px) {
+    .mainDiv {
         width: 80%;
     }
 
-    .mainDiv form input{
+    .mainDiv form input {
         font-size: 2.7rem;
         width: 70%;
     }
 
-    .submit{
-        font-size: 3.1rem!important;
+    .submit {
+        font-size: 3.1rem !important;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         font-size: 3.8rem;
     }
 
-    .table2{
+    .table2 {
         text-align: center;
         height: 73%;
         align-content: center;
@@ -150,27 +163,27 @@ section{
         box-shadow: 2px 2px 23px black;
     }
 
-    .table2 td{
+    .table2 td {
         border: outset;
         width: 100%;
-        font-size: 2.1rem!important;
+        font-size: 2.1rem !important;
         font-weight: 500;
         color: #050a30;
         align-content: center;
     }
 
-    .table2 th{
+    .table2 th {
         padding: 20px;
         border: outset;
         font-size: 2.2rem;
         align-content: center;
     }
 
-    .btn{
+    .btn {
         font-size: 1.7rem;
     }
 
-    .table2 table{
+    .table2 table {
         width: 17vw;
     }
 }
