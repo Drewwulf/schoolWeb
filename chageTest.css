@@ -67,7 +67,8 @@
     width: 30%;
     border: 0;
     justify-content: space-around;
-    color:
 }
 
-
+.osnova a {
+    color: black;
+}
