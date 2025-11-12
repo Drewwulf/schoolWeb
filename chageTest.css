@@ -49,20 +49,24 @@
     display: flex;
     align-content: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
     font-size: 2rem;
     width: 30rem;
     font-family: "Ubuntu", sans-serif;
     color: white;
-    padding: 10px;
 }
 
 .osnova div div {
     display: flex;
-    width: 30%;
     border: 0;
     justify-content: space-around;
+    padding: 10px;
+}
+
+.osnova div div h3 {
+    margin: 0;
+    align-content: center;
 }
 
 .osnova a {
@@ -80,18 +84,26 @@
 .buttonJS:hover {
     cursor: pointer;
 }
+.buttonJS IMG{
+    background-color: #c1a401;
+    padding: 10px;
+}
 
 .buttonCSS {
-    background-color: dodgerblue;
-    border-bottom: 8px solid #1c5f9f;
-    border-right: 6px solid #1c5f9f;
-    border-radius: 10px;
-}
+ background-color: dodgerblue;
+ border-bottom: 8px solid #1c5f9f;
+ border-right: 6px solid #1c5f9f;
+ border-radius: 10px;
+ }
 .buttonCSS:active {
     background-color: #1c5f9f;
 }
 .buttonCSS:hover {
     cursor: pointer;
+}
+.buttonCSS img {
+    background-color: #2376c6;
+    padding: 10px;
 }
 
 .buttonHTML {
@@ -105,4 +117,8 @@
 }
 .buttonHTML:hover {
     cursor: pointer;
+}
+.buttonHTML img{
+    background-color: #bb7b04;
+    padding: 10px;
 }
