@@ -44,7 +44,6 @@
 }
 
 .osnova div {
-    border: solid 2px;
     border-radius: 1vh;
     text-align: center;
     display: flex;
@@ -68,4 +67,14 @@
 
 .osnova a {
     text-decoration: none;
+}
+.buttonJS {
+    background-color: #e2c000;
+    border-bottom: 8px solid #a28a03;
+    border-right: 6px solid #a28a03;
+    border-radius: 10px;
+}
+.buttonJS:active {
+    background-color: #a28a03;
+    border-right: 3px solid #a28a03;
 }
