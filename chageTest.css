@@ -76,5 +76,33 @@
 }
 .buttonJS:active {
     background-color: #a28a03;
-    border-right: 3px solid #a28a03;
+}
+.buttonJS:hover {
+    cursor: pointer;
+}
+
+.buttonCSS {
+    background-color: dodgerblue;
+    border-bottom: 8px solid #1c5f9f;
+    border-right: 6px solid #1c5f9f;
+    border-radius: 10px;
+}
+.buttonCSS:active {
+    background-color: #1c5f9f;
+}
+.buttonCSS:hover {
+    cursor: pointer;
+}
+
+.buttonHTML {
+    background-color: orange;
+    border-bottom: 8px solid #966100;
+    border-right: 6px solid #966100;
+    border-radius: 10px;
+}
+.buttonHTML:active {
+    background-color: #966100;
+}
+.buttonHTML:hover {
+    cursor: pointer;
 }
