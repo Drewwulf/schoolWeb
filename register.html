@@ -1,0 +1,48 @@
+    <!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <title>Title</title>
+            <link rel="stylesheet" href="/css/register.css" />
+            <link
+                href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+                rel="stylesheet"
+                integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+                crossorigin="anonymous" />
+        </head>
+        <body class="bodyclass">
+            <main>
+                <div class="divform1">
+                    <form class="form-container" id="formregister">
+                        <h2 class="h2centr">Реєстрація</h2>
+
+                        <label for="name"></label>
+                        <input type="text" placeholder="Ім'я" id="name" required  name="name"   />
+                        <label for="username"></label>
+                        <input type="email" placeholder="Логін" id="username" name="username" required />
+
+                        <label for="password"></label>
+
+                     <input type="password" placeholder="Пароль" id="password" name="password" required />
+                    <div class="divrol">       <label for="spisok" ></label>
+                        <select class="selectclass" name="role" >
+                        <option value="student">Учень</option>
+                        <option value="teacher">Вчитель</option>
+                        <option value="admin">Адмін</option>
+
+
+
+
+
+                         </select></div>
+                        <div class="buttdivlog">
+                           <input class="btn btn-outline-light " type="submit"  value="Зареєструватися">
+                            <span id="mistake">fds</span>
+                        </div>
+                    </form>
+                </div>
+            </main>
+            <script src="autorization.js"></script>
+
+        </body>
+    </html>
