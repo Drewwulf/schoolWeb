@@ -58,39 +58,14 @@ section{
     padding: 20px !important;
     margin-top: 20px;
 }
-.table2{
-    text-align: center;
-    height: 92%;
-    align-content: center;
-    color: #ffffff;
-    display: flex;
-    background-color: white;
-    width: 60%;
+.btn-shedule{
     margin: 0 auto;
-    padding: 38px;
-    border-radius: 3vh;
-    justify-content: center;
-    box-shadow: 2px 2px 23px black;
-}
-
-.table2 td{
-    border: outset;
-    width: 100%;
+    width: 50%;
+    margin-top: 30px;
     font-size: 1.6rem;
-    font-weight: 500;
-    color: #050a30;
-    align-content: center;
-}
+    border-radius: 1vh;
+      background-color: #aac8df;
 
-.table2 th{
-    padding: 20px;
-    border: outset;
-    font-size: 1.7rem;
-    align-content: center;
-}
-
-.btn{
-    font-size: 1.4rem;
 }
 .button {
     width: 80%;
@@ -111,4 +86,3 @@ section{
 
     border-right: 1px solid #487e8b;
 }
-

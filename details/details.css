@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');.navbar{
+.navbar{
     background-color: #aac8df;
     font-size: 1.7rem;
     font-weight: 500;
@@ -27,14 +26,25 @@ body{
 }
 
 .mainDiv{
-    background-color: white;
+
     width: 40%;
     height: 70vh;
     margin: 0 auto;
     text-align: center;
     border-radius: 3vh;
     align-content: center;
-    box-shadow: 2px 2px 23px black;
+    background-color: #aac8df;
+
+}
+.maindiv2{
+
+    width: 40%;
+    height: 70vh;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3vh;
+    align-content: center;
+    background-color: #aac8df;
 }
 
 .mainDiv input{
@@ -62,43 +72,26 @@ input{
     align-content: center;
     height: 88vh;
     width: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
 }
 
 section{
-    height: 73vh;
+    height: 81vh;
     width: 100%;
     align-content: center;
-}
-
-.table2{
-    text-align: center;
-    height: 92%;
-    align-content: center;
-    color: #ffffff;
-    display: flex;
-    background-color: white;
-    width: 60%;
     margin: 0 auto;
-    padding: 38px;
-    border-radius: 3vh;
-    justify-content: center;
-    box-shadow: 2px 2px 23px black;
-}
 
-.table2 td{
-    border: outset;
-    width: 100%;
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: #050a30;
-    align-content: center;
 }
+.divflex{
+    display: flex;
+    background-color: #aac8df;
+    height: 70vh;
 
-.table2 th{
-    padding: 20px;
-    border: outset;
-    font-size: 1.7rem;
-    align-content: center;
+     border-radius: 3vh;
+    width: 80%;
 }
 
 .btn{
@@ -135,9 +128,10 @@ section{
 
     border-right: 1px solid #487e8b;
 }
+
 @media (max-width: 1000px){
     .mainDiv{
-        width: 80%;
+        width: 48%;
     }
 
     .mainDiv form input{
