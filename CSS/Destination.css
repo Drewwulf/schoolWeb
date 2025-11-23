@@ -13,6 +13,10 @@ body{
     box-shadow: 2px 2px 23px black;
 }
 
+.tr{
+    font-size: 2.5rem!important;
+}
+
 .mainDiv input{
     width: 50%;
     height: 8vh;
